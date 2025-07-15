@@ -1,0 +1,9 @@
+/mnt/c/Users/Tigran/Desktop/ITV/Game/BattleCity/build/CMakeFiles/BattleCity.dir
+/mnt/c/Users/Tigran/Desktop/ITV/Game/BattleCity/build/CMakeFiles/edit_cache.dir
+/mnt/c/Users/Tigran/Desktop/ITV/Game/BattleCity/build/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/Tigran/Desktop/ITV/Game/BattleCity/build/external/glfw/CMakeFiles/edit_cache.dir
+/mnt/c/Users/Tigran/Desktop/ITV/Game/BattleCity/build/external/glfw/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/Tigran/Desktop/ITV/Game/BattleCity/build/external/glfw/src/CMakeFiles/glfw.dir
+/mnt/c/Users/Tigran/Desktop/ITV/Game/BattleCity/build/external/glfw/src/CMakeFiles/update_mappings.dir
+/mnt/c/Users/Tigran/Desktop/ITV/Game/BattleCity/build/external/glfw/src/CMakeFiles/edit_cache.dir
+/mnt/c/Users/Tigran/Desktop/ITV/Game/BattleCity/build/external/glfw/src/CMakeFiles/rebuild_cache.dir
