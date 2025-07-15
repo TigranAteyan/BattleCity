@@ -3,34 +3,59 @@
 
 #include <iostream>
 
+int windowSize_X = 640;
+int windowSize_Y = 480;
+
+void glfwWindowSizeCallBack(GLFWwindow* window, int width, int height)
+{
+    windowSize_X = width;
+    windowSize_Y = height;
+    glViewport(0, 0, windowSize_X, windowSize_Y);
+}
+
+void glfwKeyCallBack(GLFWwindow* window, int key, int scancode, int action, int mods)
+{
+    if (key == GLFW_KEY_ESCAPE && action == GLFW_PRESS)
+    {
+        glfwSetWindowShouldClose(window, GLFW_TRUE);
+    }
+}
+
 int main()
 {
     if (!glfwInit())
+    {
+        std::cerr << "glfwInit failed!" << std::endl;
         return -1;
+    }
 
-    GLFWwindow* window = glfwCreateWindow(640, 480, "Hello World", NULL, NULL);
+    glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 3);
+    glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 3);
+    glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
+
+    GLFWwindow* window = glfwCreateWindow(windowSize_X, windowSize_Y, "Battle City", nullptr, nullptr);
     if (!window)
     {
+        std::cerr << "glfwCreateWindow failed!" << std::endl;
         glfwTerminate();
         return -1;
     }
 
     glfwMakeContextCurrent(window);
 
-    // Инициализация GLAD
-    if (!gladLoadGL())
+    if (!gladLoadGLLoader((GLADloadproc)glfwGetProcAddress))
     {
-        std::cerr << "Failed to initialize GLAD" << std::endl;
+        std::cerr << "Can't load GLAD!" << std::endl;
         return -1;
     }
 
-    glClearColor(1, 1, 1, 1);
+    glfwSetWindowSizeCallback(window, glfwWindowSizeCallBack);
+    glfwSetKeyCallback(window, glfwKeyCallBack);
 
-    // Получение и вывод версии OpenGL
-    int major, minor;
-    glGetIntegerv(GL_MAJOR_VERSION, &major);
-    glGetIntegerv(GL_MINOR_VERSION, &minor);
-    std::cout << "OpenGL " << major << "." << minor << std::endl;
+    std::cout << "Renderer: " << glGetString(GL_RENDERER) << std::endl;
+    std::cout << "OpenGL version: " << glGetString(GL_VERSION) << std::endl;
+
+    glClearColor(1.0f, 0.0f, 1.0f, 1.0f);
 
     while (!glfwWindowShouldClose(window))
     {

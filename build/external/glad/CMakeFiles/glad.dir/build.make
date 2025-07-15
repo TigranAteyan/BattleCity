@@ -73,15 +73,15 @@ external/glad/CMakeFiles/glad.dir/src/glad.c.o: external/glad/CMakeFiles/glad.di
 external/glad/CMakeFiles/glad.dir/src/glad.c.o: ../external/glad/src/glad.c
 external/glad/CMakeFiles/glad.dir/src/glad.c.o: external/glad/CMakeFiles/glad.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Tigran/Desktop/ITV/Game/BattleCity/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object external/glad/CMakeFiles/glad.dir/src/glad.c.o"
-	cd /mnt/c/Users/Tigran/Desktop/ITV/Game/BattleCity/build/external/glad && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/glad/CMakeFiles/glad.dir/src/glad.c.o -MF CMakeFiles/glad.dir/src/glad.c.o.d -o CMakeFiles/glad.dir/src/glad.c.o -c /mnt/c/Users/Tigran/Desktop/ITV/Game/BattleCity/external/glad/src/glad.c
+	cd /mnt/c/Users/Tigran/Desktop/ITV/Game/BattleCity/build/external/glad && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/glad/CMakeFiles/glad.dir/src/glad.c.o -MF CMakeFiles/glad.dir/src/glad.c.o.d -o CMakeFiles/glad.dir/src/glad.c.o -c /mnt/c/Users/Tigran/Desktop/ITV/Game/BattleCity/external/glad/src/glad.c
 
 external/glad/CMakeFiles/glad.dir/src/glad.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glad.dir/src/glad.c.i"
-	cd /mnt/c/Users/Tigran/Desktop/ITV/Game/BattleCity/build/external/glad && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/Tigran/Desktop/ITV/Game/BattleCity/external/glad/src/glad.c > CMakeFiles/glad.dir/src/glad.c.i
+	cd /mnt/c/Users/Tigran/Desktop/ITV/Game/BattleCity/build/external/glad && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/Tigran/Desktop/ITV/Game/BattleCity/external/glad/src/glad.c > CMakeFiles/glad.dir/src/glad.c.i
 
 external/glad/CMakeFiles/glad.dir/src/glad.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glad.dir/src/glad.c.s"
-	cd /mnt/c/Users/Tigran/Desktop/ITV/Game/BattleCity/build/external/glad && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Tigran/Desktop/ITV/Game/BattleCity/external/glad/src/glad.c -o CMakeFiles/glad.dir/src/glad.c.s
+	cd /mnt/c/Users/Tigran/Desktop/ITV/Game/BattleCity/build/external/glad && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Tigran/Desktop/ITV/Game/BattleCity/external/glad/src/glad.c -o CMakeFiles/glad.dir/src/glad.c.s
 
 # Object files for target glad
 glad_OBJECTS = \
