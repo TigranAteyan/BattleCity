@@ -7,3 +7,6 @@
 /mnt/c/Users/Tigran/Desktop/ITV/Game/BattleCity/build/external/glfw/src/CMakeFiles/update_mappings.dir
 /mnt/c/Users/Tigran/Desktop/ITV/Game/BattleCity/build/external/glfw/src/CMakeFiles/edit_cache.dir
 /mnt/c/Users/Tigran/Desktop/ITV/Game/BattleCity/build/external/glfw/src/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/Tigran/Desktop/ITV/Game/BattleCity/build/external/glad/CMakeFiles/glad.dir
+/mnt/c/Users/Tigran/Desktop/ITV/Game/BattleCity/build/external/glad/CMakeFiles/edit_cache.dir
+/mnt/c/Users/Tigran/Desktop/ITV/Game/BattleCity/build/external/glad/CMakeFiles/rebuild_cache.dir

@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/mnt/c/Users/Tigran/Desktop/ITV/Game/BattleCity/external/glfw/include
+CXX_INCLUDES = -I/mnt/c/Users/Tigran/Desktop/ITV/Game/BattleCity/external/glfw/include -I/mnt/c/Users/Tigran/Desktop/ITV/Game/BattleCity/external/glad/include
 
 CXX_FLAGS = 
 

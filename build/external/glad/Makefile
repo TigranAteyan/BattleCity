@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Tigran/Desktop/ITV/Game/BattleCity/build/CMakeFiles /mnt/c/Users/Tigran/Desktop/ITV/Game/BattleCity/build//CMakeFiles/progress.marks
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
+	cd /mnt/c/Users/Tigran/Desktop/ITV/Game/BattleCity/build && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Tigran/Desktop/ITV/Game/BattleCity/build/CMakeFiles /mnt/c/Users/Tigran/Desktop/ITV/Game/BattleCity/build/external/glad//CMakeFiles/progress.marks
+	cd /mnt/c/Users/Tigran/Desktop/ITV/Game/BattleCity/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/glad/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Tigran/Desktop/ITV/Game/BattleCity/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 clean
+	cd /mnt/c/Users/Tigran/Desktop/ITV/Game/BattleCity/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/glad/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,94 +103,56 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 preinstall
+	cd /mnt/c/Users/Tigran/Desktop/ITV/Game/BattleCity/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/glad/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 preinstall
+	cd /mnt/c/Users/Tigran/Desktop/ITV/Game/BattleCity/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/glad/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /mnt/c/Users/Tigran/Desktop/ITV/Game/BattleCity/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
-#=============================================================================
-# Target rules for targets named BattleCity
+# Convenience name for target.
+external/glad/CMakeFiles/glad.dir/rule:
+	cd /mnt/c/Users/Tigran/Desktop/ITV/Game/BattleCity/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/glad/CMakeFiles/glad.dir/rule
+.PHONY : external/glad/CMakeFiles/glad.dir/rule
 
-# Build rule for target.
-BattleCity: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 BattleCity
-.PHONY : BattleCity
-
-# fast build rule for target.
-BattleCity/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BattleCity.dir/build.make CMakeFiles/BattleCity.dir/build
-.PHONY : BattleCity/fast
-
-#=============================================================================
-# Target rules for targets named glfw
-
-# Build rule for target.
-glfw: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 glfw
-.PHONY : glfw
-
-# fast build rule for target.
-glfw/fast:
-	$(MAKE) $(MAKESILENT) -f external/glfw/src/CMakeFiles/glfw.dir/build.make external/glfw/src/CMakeFiles/glfw.dir/build
-.PHONY : glfw/fast
-
-#=============================================================================
-# Target rules for targets named update_mappings
-
-# Build rule for target.
-update_mappings: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 update_mappings
-.PHONY : update_mappings
-
-# fast build rule for target.
-update_mappings/fast:
-	$(MAKE) $(MAKESILENT) -f external/glfw/src/CMakeFiles/update_mappings.dir/build.make external/glfw/src/CMakeFiles/update_mappings.dir/build
-.PHONY : update_mappings/fast
-
-#=============================================================================
-# Target rules for targets named glad
-
-# Build rule for target.
-glad: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 glad
+# Convenience name for target.
+glad: external/glad/CMakeFiles/glad.dir/rule
 .PHONY : glad
 
 # fast build rule for target.
 glad/fast:
-	$(MAKE) $(MAKESILENT) -f external/glad/CMakeFiles/glad.dir/build.make external/glad/CMakeFiles/glad.dir/build
+	cd /mnt/c/Users/Tigran/Desktop/ITV/Game/BattleCity/build && $(MAKE) $(MAKESILENT) -f external/glad/CMakeFiles/glad.dir/build.make external/glad/CMakeFiles/glad.dir/build
 .PHONY : glad/fast
 
-src/main.o: src/main.cpp.o
-.PHONY : src/main.o
+src/glad.o: src/glad.c.o
+.PHONY : src/glad.o
 
 # target to build an object file
-src/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BattleCity.dir/build.make CMakeFiles/BattleCity.dir/src/main.cpp.o
-.PHONY : src/main.cpp.o
+src/glad.c.o:
+	cd /mnt/c/Users/Tigran/Desktop/ITV/Game/BattleCity/build && $(MAKE) $(MAKESILENT) -f external/glad/CMakeFiles/glad.dir/build.make external/glad/CMakeFiles/glad.dir/src/glad.c.o
+.PHONY : src/glad.c.o
 
-src/main.i: src/main.cpp.i
-.PHONY : src/main.i
+src/glad.i: src/glad.c.i
+.PHONY : src/glad.i
 
 # target to preprocess a source file
-src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BattleCity.dir/build.make CMakeFiles/BattleCity.dir/src/main.cpp.i
-.PHONY : src/main.cpp.i
+src/glad.c.i:
+	cd /mnt/c/Users/Tigran/Desktop/ITV/Game/BattleCity/build && $(MAKE) $(MAKESILENT) -f external/glad/CMakeFiles/glad.dir/build.make external/glad/CMakeFiles/glad.dir/src/glad.c.i
+.PHONY : src/glad.c.i
 
-src/main.s: src/main.cpp.s
-.PHONY : src/main.s
+src/glad.s: src/glad.c.s
+.PHONY : src/glad.s
 
 # target to generate assembly for a file
-src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BattleCity.dir/build.make CMakeFiles/BattleCity.dir/src/main.cpp.s
-.PHONY : src/main.cpp.s
+src/glad.c.s:
+	cd /mnt/c/Users/Tigran/Desktop/ITV/Game/BattleCity/build && $(MAKE) $(MAKESILENT) -f external/glad/CMakeFiles/glad.dir/build.make external/glad/CMakeFiles/glad.dir/src/glad.c.s
+.PHONY : src/glad.c.s
 
 # Help Target
 help:
@@ -200,13 +162,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... update_mappings"
-	@echo "... BattleCity"
 	@echo "... glad"
-	@echo "... glfw"
-	@echo "... src/main.o"
-	@echo "... src/main.i"
-	@echo "... src/main.s"
+	@echo "... src/glad.o"
+	@echo "... src/glad.i"
+	@echo "... src/glad.s"
 .PHONY : help
 
 
@@ -218,6 +177,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /mnt/c/Users/Tigran/Desktop/ITV/Game/BattleCity/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

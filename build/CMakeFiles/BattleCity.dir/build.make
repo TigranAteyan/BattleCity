@@ -93,6 +93,7 @@ BattleCity_EXTERNAL_OBJECTS =
 BattleCity: CMakeFiles/BattleCity.dir/src/main.cpp.o
 BattleCity: CMakeFiles/BattleCity.dir/build.make
 BattleCity: external/glfw/src/libglfw3.a
+BattleCity: external/glad/libglad.a
 BattleCity: /usr/lib/x86_64-linux-gnu/librt.a
 BattleCity: /usr/lib/x86_64-linux-gnu/libm.so
 BattleCity: CMakeFiles/BattleCity.dir/link.txt
