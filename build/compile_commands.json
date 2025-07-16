@@ -1,8 +1,18 @@
 [
 {
   "directory": "/mnt/c/Users/Tigran/Desktop/ITV/Game/BattleCity/build",
-  "command": "/usr/bin/g++  -I/mnt/c/Users/Tigran/Desktop/ITV/Game/BattleCity/external/glfw/include -I/mnt/c/Users/Tigran/Desktop/ITV/Game/BattleCity/external/glad/include -g -o CMakeFiles/BattleCity.dir/src/main.cpp.o -c /mnt/c/Users/Tigran/Desktop/ITV/Game/BattleCity/src/main.cpp",
+  "command": "/usr/bin/g++  -I/mnt/c/Users/Tigran/Desktop/ITV/Game/BattleCity/external/glad/include -I/mnt/c/Users/Tigran/Desktop/ITV/Game/BattleCity/external/glfw/include -I/mnt/c/Users/Tigran/Desktop/ITV/Game/BattleCity/src -g -std=c++17 -o CMakeFiles/BattleCity.dir/src/main.cpp.o -c /mnt/c/Users/Tigran/Desktop/ITV/Game/BattleCity/src/main.cpp",
   "file": "/mnt/c/Users/Tigran/Desktop/ITV/Game/BattleCity/src/main.cpp"
+},
+{
+  "directory": "/mnt/c/Users/Tigran/Desktop/ITV/Game/BattleCity/build",
+  "command": "/usr/bin/g++  -I/mnt/c/Users/Tigran/Desktop/ITV/Game/BattleCity/external/glad/include -I/mnt/c/Users/Tigran/Desktop/ITV/Game/BattleCity/external/glfw/include -I/mnt/c/Users/Tigran/Desktop/ITV/Game/BattleCity/src -g -std=c++17 -o CMakeFiles/BattleCity.dir/src/Renderer/ShaderProgram.cpp.o -c /mnt/c/Users/Tigran/Desktop/ITV/Game/BattleCity/src/Renderer/ShaderProgram.cpp",
+  "file": "/mnt/c/Users/Tigran/Desktop/ITV/Game/BattleCity/src/Renderer/ShaderProgram.cpp"
+},
+{
+  "directory": "/mnt/c/Users/Tigran/Desktop/ITV/Game/BattleCity/build",
+  "command": "/usr/bin/g++  -I/mnt/c/Users/Tigran/Desktop/ITV/Game/BattleCity/external/glad/include -I/mnt/c/Users/Tigran/Desktop/ITV/Game/BattleCity/external/glfw/include -I/mnt/c/Users/Tigran/Desktop/ITV/Game/BattleCity/src -g -std=c++17 -o CMakeFiles/BattleCity.dir/src/Resources/ResourcManeger.cpp.o -c /mnt/c/Users/Tigran/Desktop/ITV/Game/BattleCity/src/Resources/ResourcManeger.cpp",
+  "file": "/mnt/c/Users/Tigran/Desktop/ITV/Game/BattleCity/src/Resources/ResourcManeger.cpp"
 },
 {
   "directory": "/mnt/c/Users/Tigran/Desktop/ITV/Game/BattleCity/build/external/glfw/src",

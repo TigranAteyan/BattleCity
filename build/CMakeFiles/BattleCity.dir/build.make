@@ -83,25 +83,58 @@ CMakeFiles/BattleCity.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BattleCity.dir/src/main.cpp.s"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Tigran/Desktop/ITV/Game/BattleCity/src/main.cpp -o CMakeFiles/BattleCity.dir/src/main.cpp.s
 
+CMakeFiles/BattleCity.dir/src/Renderer/ShaderProgram.cpp.o: CMakeFiles/BattleCity.dir/flags.make
+CMakeFiles/BattleCity.dir/src/Renderer/ShaderProgram.cpp.o: ../src/Renderer/ShaderProgram.cpp
+CMakeFiles/BattleCity.dir/src/Renderer/ShaderProgram.cpp.o: CMakeFiles/BattleCity.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Tigran/Desktop/ITV/Game/BattleCity/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/BattleCity.dir/src/Renderer/ShaderProgram.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BattleCity.dir/src/Renderer/ShaderProgram.cpp.o -MF CMakeFiles/BattleCity.dir/src/Renderer/ShaderProgram.cpp.o.d -o CMakeFiles/BattleCity.dir/src/Renderer/ShaderProgram.cpp.o -c /mnt/c/Users/Tigran/Desktop/ITV/Game/BattleCity/src/Renderer/ShaderProgram.cpp
+
+CMakeFiles/BattleCity.dir/src/Renderer/ShaderProgram.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BattleCity.dir/src/Renderer/ShaderProgram.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Tigran/Desktop/ITV/Game/BattleCity/src/Renderer/ShaderProgram.cpp > CMakeFiles/BattleCity.dir/src/Renderer/ShaderProgram.cpp.i
+
+CMakeFiles/BattleCity.dir/src/Renderer/ShaderProgram.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BattleCity.dir/src/Renderer/ShaderProgram.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Tigran/Desktop/ITV/Game/BattleCity/src/Renderer/ShaderProgram.cpp -o CMakeFiles/BattleCity.dir/src/Renderer/ShaderProgram.cpp.s
+
+CMakeFiles/BattleCity.dir/src/Resources/ResourcManeger.cpp.o: CMakeFiles/BattleCity.dir/flags.make
+CMakeFiles/BattleCity.dir/src/Resources/ResourcManeger.cpp.o: ../src/Resources/ResourcManeger.cpp
+CMakeFiles/BattleCity.dir/src/Resources/ResourcManeger.cpp.o: CMakeFiles/BattleCity.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Tigran/Desktop/ITV/Game/BattleCity/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/BattleCity.dir/src/Resources/ResourcManeger.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BattleCity.dir/src/Resources/ResourcManeger.cpp.o -MF CMakeFiles/BattleCity.dir/src/Resources/ResourcManeger.cpp.o.d -o CMakeFiles/BattleCity.dir/src/Resources/ResourcManeger.cpp.o -c /mnt/c/Users/Tigran/Desktop/ITV/Game/BattleCity/src/Resources/ResourcManeger.cpp
+
+CMakeFiles/BattleCity.dir/src/Resources/ResourcManeger.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BattleCity.dir/src/Resources/ResourcManeger.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Tigran/Desktop/ITV/Game/BattleCity/src/Resources/ResourcManeger.cpp > CMakeFiles/BattleCity.dir/src/Resources/ResourcManeger.cpp.i
+
+CMakeFiles/BattleCity.dir/src/Resources/ResourcManeger.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BattleCity.dir/src/Resources/ResourcManeger.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Tigran/Desktop/ITV/Game/BattleCity/src/Resources/ResourcManeger.cpp -o CMakeFiles/BattleCity.dir/src/Resources/ResourcManeger.cpp.s
+
 # Object files for target BattleCity
 BattleCity_OBJECTS = \
-"CMakeFiles/BattleCity.dir/src/main.cpp.o"
+"CMakeFiles/BattleCity.dir/src/main.cpp.o" \
+"CMakeFiles/BattleCity.dir/src/Renderer/ShaderProgram.cpp.o" \
+"CMakeFiles/BattleCity.dir/src/Resources/ResourcManeger.cpp.o"
 
 # External object files for target BattleCity
 BattleCity_EXTERNAL_OBJECTS =
 
-BattleCity: CMakeFiles/BattleCity.dir/src/main.cpp.o
-BattleCity: CMakeFiles/BattleCity.dir/build.make
-BattleCity: external/glfw/src/libglfw3.a
-BattleCity: external/glad/libglad.a
-BattleCity: /usr/lib/x86_64-linux-gnu/librt.a
-BattleCity: /usr/lib/x86_64-linux-gnu/libm.so
-BattleCity: CMakeFiles/BattleCity.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/Tigran/Desktop/ITV/Game/BattleCity/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable BattleCity"
+bin/BattleCity: CMakeFiles/BattleCity.dir/src/main.cpp.o
+bin/BattleCity: CMakeFiles/BattleCity.dir/src/Renderer/ShaderProgram.cpp.o
+bin/BattleCity: CMakeFiles/BattleCity.dir/src/Resources/ResourcManeger.cpp.o
+bin/BattleCity: CMakeFiles/BattleCity.dir/build.make
+bin/BattleCity: external/glfw/src/libglfw3.a
+bin/BattleCity: external/glad/libglad.a
+bin/BattleCity: /usr/lib/x86_64-linux-gnu/librt.a
+bin/BattleCity: /usr/lib/x86_64-linux-gnu/libm.so
+bin/BattleCity: CMakeFiles/BattleCity.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/Tigran/Desktop/ITV/Game/BattleCity/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable bin/BattleCity"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/BattleCity.dir/link.txt --verbose=$(VERBOSE)
+	/usr/bin/cmake -E copy_directory /mnt/c/Users/Tigran/Desktop/ITV/Game/BattleCity/res /mnt/c/Users/Tigran/Desktop/ITV/Game/BattleCity/build/bin/res
 
 # Rule to build all files generated by this target.
-CMakeFiles/BattleCity.dir/build: BattleCity
+CMakeFiles/BattleCity.dir/build: bin/BattleCity
 .PHONY : CMakeFiles/BattleCity.dir/build
 
 CMakeFiles/BattleCity.dir/clean:

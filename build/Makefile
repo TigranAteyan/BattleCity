@@ -168,6 +168,54 @@ glad/fast:
 	$(MAKE) $(MAKESILENT) -f external/glad/CMakeFiles/glad.dir/build.make external/glad/CMakeFiles/glad.dir/build
 .PHONY : glad/fast
 
+src/Renderer/ShaderProgram.o: src/Renderer/ShaderProgram.cpp.o
+.PHONY : src/Renderer/ShaderProgram.o
+
+# target to build an object file
+src/Renderer/ShaderProgram.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BattleCity.dir/build.make CMakeFiles/BattleCity.dir/src/Renderer/ShaderProgram.cpp.o
+.PHONY : src/Renderer/ShaderProgram.cpp.o
+
+src/Renderer/ShaderProgram.i: src/Renderer/ShaderProgram.cpp.i
+.PHONY : src/Renderer/ShaderProgram.i
+
+# target to preprocess a source file
+src/Renderer/ShaderProgram.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BattleCity.dir/build.make CMakeFiles/BattleCity.dir/src/Renderer/ShaderProgram.cpp.i
+.PHONY : src/Renderer/ShaderProgram.cpp.i
+
+src/Renderer/ShaderProgram.s: src/Renderer/ShaderProgram.cpp.s
+.PHONY : src/Renderer/ShaderProgram.s
+
+# target to generate assembly for a file
+src/Renderer/ShaderProgram.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BattleCity.dir/build.make CMakeFiles/BattleCity.dir/src/Renderer/ShaderProgram.cpp.s
+.PHONY : src/Renderer/ShaderProgram.cpp.s
+
+src/Resources/ResourcManeger.o: src/Resources/ResourcManeger.cpp.o
+.PHONY : src/Resources/ResourcManeger.o
+
+# target to build an object file
+src/Resources/ResourcManeger.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BattleCity.dir/build.make CMakeFiles/BattleCity.dir/src/Resources/ResourcManeger.cpp.o
+.PHONY : src/Resources/ResourcManeger.cpp.o
+
+src/Resources/ResourcManeger.i: src/Resources/ResourcManeger.cpp.i
+.PHONY : src/Resources/ResourcManeger.i
+
+# target to preprocess a source file
+src/Resources/ResourcManeger.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BattleCity.dir/build.make CMakeFiles/BattleCity.dir/src/Resources/ResourcManeger.cpp.i
+.PHONY : src/Resources/ResourcManeger.cpp.i
+
+src/Resources/ResourcManeger.s: src/Resources/ResourcManeger.cpp.s
+.PHONY : src/Resources/ResourcManeger.s
+
+# target to generate assembly for a file
+src/Resources/ResourcManeger.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BattleCity.dir/build.make CMakeFiles/BattleCity.dir/src/Resources/ResourcManeger.cpp.s
+.PHONY : src/Resources/ResourcManeger.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -204,6 +252,12 @@ help:
 	@echo "... BattleCity"
 	@echo "... glad"
 	@echo "... glfw"
+	@echo "... src/Renderer/ShaderProgram.o"
+	@echo "... src/Renderer/ShaderProgram.i"
+	@echo "... src/Renderer/ShaderProgram.s"
+	@echo "... src/Resources/ResourcManeger.o"
+	@echo "... src/Resources/ResourcManeger.i"
+	@echo "... src/Resources/ResourcManeger.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

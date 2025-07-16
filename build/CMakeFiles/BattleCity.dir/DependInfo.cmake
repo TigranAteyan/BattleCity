@@ -8,6 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/mnt/c/Users/Tigran/Desktop/ITV/Game/BattleCity/src/Renderer/ShaderProgram.cpp" "CMakeFiles/BattleCity.dir/src/Renderer/ShaderProgram.cpp.o" "gcc" "CMakeFiles/BattleCity.dir/src/Renderer/ShaderProgram.cpp.o.d"
+  "/mnt/c/Users/Tigran/Desktop/ITV/Game/BattleCity/src/Resources/ResourcManeger.cpp" "CMakeFiles/BattleCity.dir/src/Resources/ResourcManeger.cpp.o" "gcc" "CMakeFiles/BattleCity.dir/src/Resources/ResourcManeger.cpp.o.d"
   "/mnt/c/Users/Tigran/Desktop/ITV/Game/BattleCity/src/main.cpp" "CMakeFiles/BattleCity.dir/src/main.cpp.o" "gcc" "CMakeFiles/BattleCity.dir/src/main.cpp.o.d"
   )
 
